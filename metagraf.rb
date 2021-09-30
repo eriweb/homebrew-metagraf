@@ -5,20 +5,20 @@
 class Metagraf < Formula
   desc ""
   homepage ""
-  version "0.1.51"
+  version "0.1.52"
   bottle :unneeded
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/terbolous/metagraf/releases/download/v0.1.51/mg-0.1.51-darwin-amd64.tar.gz"
-      sha256 "2b84b70b59a44f81deac6554bc5fa4442090b2f8bc14f0b70a583404b3788820"
+      url "https://github.com/terbolous/metagraf/releases/download/v0.1.52/mg-0.1.52-darwin-amd64.tar.gz"
+      sha256 "7849587a52d476e3dc72f584284068fd1de909d295557126095dff227bd0a893"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/terbolous/metagraf/releases/download/v0.1.51/mg-0.1.51-linux-amd64.tar.gz"
-      sha256 "0c8e32fc9f114849bc4fb8bc5c615c98489f549699c57d9110560ec009e2df8b"
+      url "https://github.com/terbolous/metagraf/releases/download/v0.1.52/mg-0.1.52-linux-amd64.tar.gz"
+      sha256 "2d1ad7549a62ef0a5f2bce91a551fd792c316eb7436e1964e7631fed30711b2c"
     end
   end
 
