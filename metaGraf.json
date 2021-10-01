@@ -1,0 +1,19 @@
+{
+    "version": "0.1.54",
+    "architecture": {
+        "32bit": {
+            "url": "https://github.com/terbolous/metagraf/releases/download/v0.1.54/mg-0.1.54-windows-386.zip",
+            "bin": [
+                "mg-0.1.54-windows-386/mg.exe"
+            ],
+            "hash": "2473e41bcfc7920a7f75cd55a1f2b41bee1e76ff7f7d23305ccdd5ae9be70bb4"
+        },
+        "64bit": {
+            "url": "https://github.com/terbolous/metagraf/releases/download/v0.1.54/mg-0.1.54-windows-amd64.zip",
+            "bin": [
+                "mg-0.1.54-windows-amd64/mg.exe"
+            ],
+            "hash": "e450e368cc85a47f3b47863ae37204263ca3c47d3fe63c712b42518ba5f125d7"
+        }
+    }
+}
